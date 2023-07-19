@@ -39,7 +39,7 @@ app.post("/", function(req, res) {
 
     const jsonData = JSON.stringify(data);
 
-    const url = "https://us21.api.mailchimp.com/3.0/lists/0b2e65decc"
+    const url = "https://us21.api.mailchimp.com/3.0/lists/0b2e65decc" //use server number included in api key in place of 21
     const options = {
         method: "POST",
         //auth:"Any random username: API KEY" 
